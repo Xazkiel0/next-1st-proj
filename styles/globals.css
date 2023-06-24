@@ -121,6 +121,10 @@
   @apply space-y-6 py-8 sm:columns-2 sm:gap-6 xl:columns-3;
 }
 
+/* .flex-col {
+  @apply flex-col;
+} */
+
 /* Feed Component */
 .feed {
   @apply mt-16 mx-auto w-full max-w-xl flex justify-center items-center flex-col gap-2;
@@ -155,6 +159,10 @@
 
 .flex-center {
   @apply flex justify-center items-center;
+}
+
+.flex-center-col {
+  @apply flex flex-col justify-center items-center;
 }
 
 .flex-start {
